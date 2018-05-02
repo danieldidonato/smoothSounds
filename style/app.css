@@ -100,7 +100,13 @@ img {
 	height: 250px;
 	width: 350px;
 	display: block;
+	margin: 0 auto;
 }
+
+.js-meme{
+	display: none;
+}
+
 
 .upspacing{
 	padding-top: 100px
@@ -131,3 +137,4 @@ img {
 .bottomnav-link:hover {
 	text-decoration: underline;
 }
+
