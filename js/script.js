@@ -45,7 +45,7 @@ $.get(gifURL1, response => {
 
 
 const $giphContainer2 = $('.js-rushingGif')
-const gifURL2 = 'https://api.giphy.com/v1/gifs/search?q=nature%20waters&api_key=Nlu41GYoEb83vQiekoMQsuciJgIpkEQZ'
+const gifURL2 = 'https://api.giphy.com/v1/gifs/search?q=nature%20waterfall&api_key=Nlu41GYoEb83vQiekoMQsuciJgIpkEQZ'
 $.get(gifURL2, response => {
 	const gifs2 = response.data;
 	// for (let i = 0; i < gifs.length; i++) {
